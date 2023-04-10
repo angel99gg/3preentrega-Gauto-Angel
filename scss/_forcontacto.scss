@@ -1,0 +1,67 @@
+/* formulario contacto */
+.formulario{
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    margin: 120px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:"contactanos contactanos" 
+                        "nombre       apellido"
+                        "email        tel "                        
+                        "mensaje      mensaje"
+                        "boton        boton";
+                        h2{
+                            grid-area: contactanos;
+                            padding: 10px;
+                            text-align: center;
+                        }
+                        label{
+                            display: flex;
+                            flex-direction: column;
+                            padding: 10px;
+                        }
+                        label input ,.formulario label textarea{
+                            padding: 10px;
+                            border: none;
+                            border-bottom: 1px solid black;
+                        }
+                        label:nth-child(2){
+                            grid-area: nombre;
+                        }
+                        label:nth-child(3){
+                            grid-area: apellido;
+                        }
+                        label:nth-child(4){
+                            grid-area: email;
+                        }
+                        label:nth-child(5){
+                            grid-area: tel;
+                        }
+                        label:nth-child(6){
+                            grid-area: mensaje;
+                        }
+                        button{
+                            grid-area: boton;
+                            background-color: rgb(0, 0, 0);
+                            color: white;
+                            padding: 10px;
+                            border: none;
+                        
+                        }     
+}
+
+
+@media(max-width:750px){
+    .formulario{
+    width: auto;
+    margin: 40px 0px;
+    grid-template-areas: "contactanos contactanos" 
+                            "nombre       nombre"
+                            "apellido     apellido "                        
+                            "email        email"
+                            "tel          tel"
+                            "mensaje      mensaje"
+                            "boton        boton";
+    }
+}

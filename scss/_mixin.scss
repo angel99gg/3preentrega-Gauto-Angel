@@ -1,0 +1,10 @@
+@mixin boton ($bg,$color,$fotn-size ,$white){
+    width: $white;
+    padding: 5px 20px;
+    font-size: $fotn-size;
+    border: none;
+    margin: 10px;
+    color: $color;
+    background-color: $bg;
+    border-radius: 5px;
+}

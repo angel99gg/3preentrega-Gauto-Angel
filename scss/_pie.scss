@@ -1,0 +1,50 @@
+/* pie */
+.pie{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+    .conted{    
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        .redes a i{   
+            color: white;
+            font-size: 20px;
+            margin: 5px;        
+        }    
+    }   
+    .contac{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        .conteni2 a i{
+            color: white;
+            font-size: 12px;
+            margin: 10px;                        
+        }    
+    }   
+    .pagos{
+        width: px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        .medios img{
+            font-size: 20px;
+            margin: 15px;
+        }    
+    }
+    .derechos{
+        font-size: 10px;
+       
+    }
+}
+
+@media(max-width:1200px){
+    .pie{
+        justify-content: start;
+    }
+}

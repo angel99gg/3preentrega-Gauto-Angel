@@ -1,0 +1,16 @@
+/* portada */
+.portada{
+    position: relative;
+    img{
+        width: 100%;
+        height: 200PX;
+        object-fit: cover;
+    }
+}
+
+@media(max-width:800px){
+    .portada img{
+        height:auto;
+    }
+}
+    
