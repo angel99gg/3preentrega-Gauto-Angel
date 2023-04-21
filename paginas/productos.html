@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=+541159304096&text=Hola%20contactanos%20para%20mas%20info" class="float" target="_blank">
+      <i class="fa fa-whatsapp my-float "></i>
+    </a>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000;">
             <div class="container-fluid">
@@ -40,10 +44,37 @@
               </div>
             </div>
         </nav>
-        <div class="portada">
-            <img src="../multimedia/portadas/portada-offsale.jpg"alt="">
-        </div> 
+        
     </header> 
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../multimedia/portadas/productos-new.jpg" class="d-block w-100" alt="...">
+            
+          </div>
+          <div class="carousel-item">
+            <img src="../multimedia/portadas/variedad.jpg" class="d-block w-100" alt="...">
+            
+          </div>
+          <div class="carousel-item">
+            <img src="../multimedia/portadas/reme-ofert.jpg" class="d-block w-100" alt="...">
+            
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
             <main>
                 <h2 class="titulo-destacado">Productos Destacados</h2>
                 <div class="contenedor-tarjeta-destacada">
@@ -82,52 +113,68 @@
                 </div>
                 <div class="tarjetas">
                     <div class="tarjeta1">
-                        <img class="tarjet_img" src="../multimedia/remeras/remera-blanca.jpg" alt="">
-                        <h3 class="tarjet_titulo">Remera blanca</h3>
-                        <p class="tarjet_descrip">$2.000</p>                    
-                        <button class="tarjet_boton">Comprar</button>
+                        <figure>
+                            <img class="tarjet_img" src="../multimedia/remeras/remera-blanca.jpg" alt="">
+                        </figure> 
+                            <h3 class="tarjet_titulo">Remera blanca</h3>
+                            <p class="tarjet_descrip">$2.000</p>                    
+                            <button class="tarjet_boton">Comprar</button>
                     </div>
                     <div class="tarjeta1">
-                        <img class="tarjet_img" src="../multimedia/remeras/remera-rip curl.jpeg" alt="">
-                        <h3 class="tarjet_titulo">Remera rip curl</h3>
-                        <p class="tarjet_descrip">$5.000</p>                    
-                        <button class="tarjet_boton">Comprar</button>
+                        <figure>
+                            <img class="tarjet_img" src="../multimedia/remeras/remera-rip curl.jpeg" alt="">
+                        </figure> 
+                            <h3 class="tarjet_titulo">Remera rip curl</h3>
+                            <p class="tarjet_descrip">$5.000</p>                    
+                            <button class="tarjet_boton">Comprar</button>
                     </div>
                     <div class="tarjeta1">
-                        <img class="tarjet_img" src="../multimedia/buzos/buzo-new-balance.jpg" alt="">
-                        <h3 class="tarjet_titulo">Buzo new balance</h3>
-                        <p class="tarjet_descrip">$10.000</p>                    
-                        <button class="tarjet_boton">Comprar</button>
+                        <figure>
+                            <img class="tarjet_img" src="../multimedia/buzos/buzo-new-balance.jpg" alt="">
+                        </figure> 
+                            <h3 class="tarjet_titulo">Buzo new balance</h3>
+                            <p class="tarjet_descrip">$10.000</p>                    
+                            <button class="tarjet_boton">Comprar</button>
                     </div>
                     <div class="tarjeta1">
-                        <img class="tarjet_img" src="../multimedia/buzos/buzo-honda.jpg" alt="">
-                        <h3 class="tarjet_titulo">Bozo honda</h3>
-                        <p class="tarjet_descrip">$7.000</p>                    
-                        <button class="tarjet_boton">Comprar</button>
+                        <figure>
+                            <img class="tarjet_img" src="../multimedia/buzos/buzo-honda.jpg" alt="">
+                        </figure> 
+                            <h3 class="tarjet_titulo">Bozo honda</h3>
+                            <p class="tarjet_descrip">$7.000</p>                    
+                            <button class="tarjet_boton">Comprar</button>
                     </div>
                     <div class="tarjeta1">
-                        <img class="tarjet_img" src="../multimedia/buzos/buzo-nasa-blanco.jpg" alt="">
-                        <h3 class="tarjet_titulo">Buzo nasa</h3>
-                        <p class="tarjet_descrip">$10.000</p>                    
-                        <button class="tarjet_boton">Comprar</button>
+                        <figure>
+                            <img class="tarjet_img" src="../multimedia/buzos/buzo-nasa-blanco.jpg" alt="">
+                        </figure> 
+                            <h3 class="tarjet_titulo">Buzo nasa</h3>
+                            <p class="tarjet_descrip">$10.000</p>                    
+                            <button class="tarjet_boton">Comprar</button>
                     </div>
                     <div class="tarjeta1">
-                        <img class="tarjet_img" src="../multimedia/buzos/buzo-gris-clasico.jpg" alt="">
-                        <h3 class="tarjet_titulo">Buzo gris</h3>
-                        <p class="tarjet_descrip">$5.000</p>                    
-                        <button class="tarjet_boton">Comprar</button>
+                        <figure>
+                            <img class="tarjet_img" src="../multimedia/buzos/buzo-gris-clasico.jpg" alt="">
+                        </figure> 
+                            <h3 class="tarjet_titulo">Buzo gris</h3>
+                            <p class="tarjet_descrip">$5.000</p>                    
+                            <button class="tarjet_boton">Comprar</button>
                     </div>
                     <div class="tarjeta1">
-                        <img class="tarjet_img" src="../multimedia/remeras/remera-blanca.jpg" alt="">
-                        <h3 class="tarjet_titulo">Remera blanca</h3>
-                        <p class="tarjet_descrip">$2.000</p>                    
-                        <button class="tarjet_boton">Comprar</button>
+                        <figure>
+                            <img class="tarjet_img" src="../multimedia/remeras/remera-blanca.jpg" alt="">
+                        </figure> 
+                            <h3 class="tarjet_titulo">Remera blanca</h3>
+                            <p class="tarjet_descrip">$2.000</p>                    
+                            <button class="tarjet_boton">Comprar</button>
                     </div>
                     <div class="tarjeta1">
-                        <img class="tarjet_img" src="../multimedia/remeras/remera-homero-arbusto.jpg" alt="">
-                        <h3 class="tarjet_titulo">Remera homero</h3>
-                        <p class="tarjet_descrip">$3.000</p>                    
-                        <button class="tarjet_boton">Comprar</button>
+                        <figure>
+                            <img class="tarjet_img" src="../multimedia/remeras/remera-homero-arbusto.jpg" alt="">
+                        </figure> 
+                            <h3 class="tarjet_titulo">Remera homero</h3>
+                            <p class="tarjet_descrip">$3.000</p>                    
+                            <button class="tarjet_boton">Comprar</button>
                     </div>
                 </div>
             </main>
